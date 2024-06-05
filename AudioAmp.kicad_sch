@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7c40bb6d-39d1-4b91-a2f2-a85e74d3b158)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 12.7 15.24) (size 78.74 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43b83324-4b5b-4a32-9c48-137538d62584)
+    (property "Sheetname" "MCU" (at 12.7 14.5284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 12.7 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AudioAmp"
+        (path "/7c40bb6d-39d1-4b91-a2f2-a85e74d3b158" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 194.31 20.32) (size 78.74 57.15) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 54f4758a-8b57-4618-8682-2393a00ecf13)
+    (property "Sheetname" "Power" (at 194.31 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 194.31 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AudioAmp"
+        (path "/7c40bb6d-39d1-4b91-a2f2-a85e74d3b158" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 12.7 115.57) (size 142.24 80.01) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97bd80ce-01ef-4bab-aca5-9a0417b7661d)
+    (property "Sheetname" "Connectors" (at 12.7 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 12.7 196.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AudioAmp"
+        (path "/7c40bb6d-39d1-4b91-a2f2-a85e74d3b158" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 99.06 16.51) (size 81.28 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a1522adb-b069-4654-adbe-5870e517e080)
+    (property "Sheetname" "Codec" (at 99.06 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Codec.kicad_sch" (at 99.06 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AudioAmp"
+        (path "/7c40bb6d-39d1-4b91-a2f2-a85e74d3b158" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 31.75 64.77) (size 69.85 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d9f22c81-3656-48f7-9541-e4fbc6f14548)
+    (property "Sheetname" "Analog" (at 31.75 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "analog.kicad_sch" (at 31.75 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AudioAmp"
+        (path "/7c40bb6d-39d1-4b91-a2f2-a85e74d3b158" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
